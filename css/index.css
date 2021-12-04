@@ -1,0 +1,50 @@
+#header {
+  float: left;
+}
+
+#header-logos {
+  float: right;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#badges {
+  width: 100%;
+  text-align: center;
+}
+
+.guestbook-sign {
+  float: right;
+}
+
+.guestbook-signatories {
+  float: left;
+  width: 50%;
+}
+
+.blinking {
+  animation: blinkingText 2s infinite;
+}
+
+@keyframes blinkingText {
+   
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: .5;
+            }
+            100% {
+                opacity: 1;
+            }
+}
+
+.strike {
+  text-decoration: line-through;
+}
+/*.hidden {*/
+/*  display: none !important;*/
+/*}*/
